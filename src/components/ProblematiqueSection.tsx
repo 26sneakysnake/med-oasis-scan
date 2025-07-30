@@ -72,11 +72,12 @@ const ProblematiqueSection = () => {
               </div>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-card">
-              <div className="h-64 bg-gradient-to-b from-success/20 via-accent/20 to-primary/20 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-6xl mb-2">🗺️</div>
-                  <div className="text-sm text-muted-foreground">Visualisation APL par commune</div>
-                </div>
+              <div className="h-64 rounded-lg flex items-center justify-center overflow-hidden">
+                <img 
+                  src="https://i.ibb.co/678PKbCS/newplot-7.png" 
+                  alt="Visualisation APL par commune" 
+                  className="w-full h-full object-contain"
+                />
               </div>
             </div>
           </div>
