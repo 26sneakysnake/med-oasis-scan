@@ -108,7 +108,7 @@ const TeamSection = () => {
 
 
         {/* Team Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
+        <div className="flex justify-center gap-8 mb-16">
           <Card className="p-6 text-center bg-white shadow-card">
             <div className="text-3xl font-bold text-primary mb-2">4</div>
             <div className="text-sm text-muted-foreground">Collaborateurs</div>
