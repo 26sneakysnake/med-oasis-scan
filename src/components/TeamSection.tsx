@@ -22,14 +22,18 @@ const TeamSection = () => {
         {/* Founding Team */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           <Card className="p-8 text-center bg-white shadow-medical hover:shadow-glow transition-all duration-300 group">
-            <div className="w-24 h-24 bg-gradient-primary rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl font-bold group-hover:scale-110 transition-transform">
-              AI
+            <div className="w-24 h-24 rounded-full mx-auto mb-6 overflow-hidden group-hover:scale-110 transition-transform">
+              <img 
+                src="https://media.licdn.com/dms/image/v2/D4E03AQGVi_gfYNVqyw/profile-displayphoto-crop_800_800/B4EZfVxVyxGcAM-/0/1751638171456?e=1756944000&v=beta&t=SYAkLGIzAAjkdh7vKVjSuYlcqZNkIIrWK9TiVrV3YEM"
+                alt="Ilyess ASSADI"
+                className="w-full h-full object-cover"
+              />
             </div>
-            <h3 className="text-xl font-bold text-foreground mb-2">Dr. Alexandra MARTIN</h3>
-            <div className="text-primary font-medium mb-4">CEO & Co-fondatrice</div>
+            <h3 className="text-xl font-bold text-foreground mb-2">Ilyess ASSADI</h3>
+            <div className="text-primary font-medium mb-4">CEO & Co-fondateur</div>
             <p className="text-sm text-muted-foreground mb-6">
-              Ex-directrice innovation ARS Île-de-France. 
-              Docteur en santé publique, 15 ans d'expérience en politique de santé.
+              Alternant Air France 
+              ESILV - Industrie & Robotique
             </p>
             <div className="flex items-center justify-center gap-4 mb-4">
               <div className="flex items-center gap-1 text-xs text-accent">
@@ -46,7 +50,7 @@ const TeamSection = () => {
               </Button>
             </div>
           </Card>
-
+        
           <Card className="p-8 text-center bg-white shadow-medical hover:shadow-glow transition-all duration-300 group">
             <div className="w-24 h-24 bg-gradient-medical rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl font-bold group-hover:scale-110 transition-transform">
               JD
@@ -72,7 +76,7 @@ const TeamSection = () => {
               </Button>
             </div>
           </Card>
-
+        
           <Card className="p-8 text-center bg-white shadow-medical hover:shadow-glow transition-all duration-300 group">
             <div className="w-24 h-24 bg-gradient-success rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl font-bold group-hover:scale-110 transition-transform">
               MR
