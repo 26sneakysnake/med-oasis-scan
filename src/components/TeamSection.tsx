@@ -36,10 +36,6 @@ const TeamSection = () => {
               ESILV - Industrie & Robotique
             </p>
             <div className="flex items-center justify-center gap-4 mb-4">
-              <div className="flex items-center gap-1 text-xs text-accent">
-                <Award className="w-3 h-3" />
-                <span>Prix Innovation Santé 2023</span>
-              </div>
             </div>
             <div className="flex items-center justify-center gap-3">
               <Button size="sm" variant="outline" className="p-2">
