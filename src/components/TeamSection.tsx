@@ -35,14 +35,16 @@ const TeamSection = () => {
               Alternant Air France<br />
               ESILV - Industrie & Robotique
             </p>
-            <div className="flex items-center justify-center gap-4 mb-4">
-            </div>
             <div className="flex items-center justify-center gap-3">
-              <Button size="sm" variant="outline" className="p-2">
-                <Linkedin className="w-4 h-4" />
+              <Button size="sm" variant="outline" className="p-2" asChild>
+                <a href="https://www.linkedin.com/in/ilyess-assadi/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-4 h-4" />
+                </a>
               </Button>
-              <Button size="sm" variant="outline" className="p-2">
-                <Mail className="w-4 h-4" />
+              <Button size="sm" variant="outline" className="p-2" asChild>
+                <a href="mailto:ilyessassadi78@gmail.com">
+                  <Mail className="w-4 h-4" />
+                </a>
               </Button>
             </div>
           </Card>
