@@ -78,27 +78,29 @@ const TeamSection = () => {
           </Card>
         
           <Card className="p-8 text-center bg-white shadow-medical hover:shadow-glow transition-all duration-300 group">
-            <div className="w-24 h-24 bg-gradient-success rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl font-bold group-hover:scale-110 transition-transform">
-              MR
+            <div className="w-24 h-24 rounded-full mx-auto mb-6 overflow-hidden group-hover:scale-110 transition-transform">
+              <img 
+                src="https://media.licdn.com/dms/image/v2/D4D03AQG2tSCcpo9j0Q/profile-displayphoto-shrink_800_800/B4DZSJ6z9EHUAg-/0/1737480684189?e=1756944000&v=beta&t=vT0lXrmAgjMdOh1wI-wlaX_xNkKRb7422c47ve5AOgs"
+                alt="Badr AGRAD"
+                className="w-full h-full object-cover"
+              />
             </div>
-            <h3 className="text-xl font-bold text-foreground mb-2">Marie ROUSSEAU</h3>
-            <div className="text-success font-medium mb-4">COO & Co-fondatrice</div>
+            <h3 className="text-xl font-bold text-foreground mb-2">Badr AGRAD</h3>
+            <div className="text-success font-medium mb-4">Business Manager & Co-fondateur</div>
             <p className="text-sm text-muted-foreground mb-6">
-              Ex-consultante McKinsey Healthcare. 
-              HEC Paris, spécialiste transformation digitale secteur santé.
+              Alternant Allianz France<br />
+              ESILV - Data & IA
             </p>
-            <div className="flex items-center justify-center gap-4 mb-4">
-              <div className="flex items-center gap-1 text-xs text-primary">
-                <Award className="w-3 h-3" />
-                <span>40 under 40 Healthcare</span>
-              </div>
-            </div>
             <div className="flex items-center justify-center gap-3">
-              <Button size="sm" variant="outline" className="p-2">
-                <Linkedin className="w-4 h-4" />
+              <Button size="sm" variant="outline" className="p-2" asChild>
+                <a href="https://www.linkedin.com/in/badr-agrad-9274b4208/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-4 h-4" />
+                </a>
               </Button>
-              <Button size="sm" variant="outline" className="p-2">
-                <Mail className="w-4 h-4" />
+              <Button size="sm" variant="outline" className="p-2" asChild>
+                <a href="mailto:badragrad@gmail.com">
+                  <Mail className="w-4 h-4" />
+                </a>
               </Button>
             </div>
           </Card>
