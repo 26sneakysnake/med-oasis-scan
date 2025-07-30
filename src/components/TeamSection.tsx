@@ -32,7 +32,7 @@ const TeamSection = () => {
             <h3 className="text-xl font-bold text-foreground mb-2">Ilyess ASSADI</h3>
             <div className="text-primary font-medium mb-4">CEO & Co-fondateur</div>
             <p className="text-sm text-muted-foreground mb-6">
-              Alternant Air France 
+              Alternant Air France<br />
               ESILV - Industrie & Robotique
             </p>
             <div className="flex items-center justify-center gap-4 mb-4">
