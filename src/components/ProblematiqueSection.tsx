@@ -71,12 +71,12 @@ const ProblematiqueSection = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-white rounded-xl p-6 shadow-card">
-              <div className="h-64 rounded-lg flex items-center justify-center overflow-hidden">
+            <div className="bg-white rounded-xl p-4 shadow-card">
+              <div className="rounded-lg overflow-hidden">
                 <img 
                   src="https://i.ibb.co/678PKbCS/newplot-7.png" 
                   alt="Visualisation APL par commune" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-auto object-contain"
                 />
               </div>
             </div>
