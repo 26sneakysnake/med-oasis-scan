@@ -116,13 +116,13 @@ const SolutionSection = () => {
                 Découvrir la démo
               </Button>
             </div>
-            <div className="bg-white rounded-xl p-6 shadow-medical">
-              <div className="h-80 bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/20 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-8xl mb-4">📊</div>
-                  <div className="text-foreground font-medium">Dashboard Medical'IA</div>
-                  <div className="text-sm text-muted-foreground">Interface de visualisation</div>
-                </div>
+            <div className="bg-white rounded-xl p-4 shadow-medical">
+              <div className="rounded-lg overflow-hidden">
+                <img 
+                  src="https://i.ibb.co/4wBMccmx/Capture-decran-2025-05-08-140504.png" 
+                  alt="Dashboard Medical'IA - Interface de visualisation" 
+                  className="w-full h-auto object-contain"
+                />
               </div>
             </div>
           </div>
