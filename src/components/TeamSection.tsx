@@ -121,10 +121,6 @@ const TeamSection = () => {
             <div className="text-3xl font-bold text-accent mb-2">4</div>
             <div className="text-sm text-muted-foreground">Experts santé</div>
           </Card>
-          <Card className="p-6 text-center bg-white shadow-card">
-            <div className="text-3xl font-bold text-success mb-2">12</div>
-            <div className="text-sm text-muted-foreground">Années d'expérience moyenne</div>
-          </Card>
         </div>
 
         {/* Awards & Recognition */}
