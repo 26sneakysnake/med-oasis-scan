@@ -106,32 +106,6 @@ const TeamSection = () => {
           </Card>
         </div>
 
-        {/* Advisory Board */}
-        <div className="bg-gradient-to-r from-primary/5 to-secondary/5 rounded-2xl p-8 mb-16">
-          <h3 className="text-2xl font-bold text-foreground mb-8 text-center">Conseil consultatif</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex items-center gap-4">
-              <div className="w-16 h-16 bg-gradient-accent rounded-full flex items-center justify-center text-accent-foreground font-bold">
-                PL
-              </div>
-              <div>
-                <h4 className="font-bold text-foreground">Prof. Pierre LAURENT</h4>
-                <div className="text-accent font-medium">Directeur IRDES</div>
-                <p className="text-sm text-muted-foreground">Expert national des politiques de santé</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-4">
-              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center text-primary-foreground font-bold">
-                SB
-              </div>
-              <div>
-                <h4 className="font-bold text-foreground">Sophie BERNARD</h4>
-                <div className="text-primary font-medium">Ex-CEO Withings</div>
-                <p className="text-sm text-muted-foreground">Experte HealthTech & levées de fonds</p>
-              </div>
-            </div>
-          </div>
-        </div>
 
         {/* Team Stats */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
