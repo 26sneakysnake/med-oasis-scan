@@ -48,29 +48,31 @@ const TeamSection = () => {
               </Button>
             </div>
           </Card>
-        
+          
           <Card className="p-8 text-center bg-white shadow-medical hover:shadow-glow transition-all duration-300 group">
-            <div className="w-24 h-24 bg-gradient-medical rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl font-bold group-hover:scale-110 transition-transform">
-              JD
+            <div className="w-24 h-24 rounded-full mx-auto mb-6 overflow-hidden group-hover:scale-110 transition-transform">
+              <img 
+                src="https://media.licdn.com/dms/image/v2/D4E03AQFanGo-4iolxw/profile-displayphoto-shrink_800_800/B4EZaSh6Y0HcAc-/0/1746215086147?e=1756944000&v=beta&t=Le_U_X_yj_ApZfALCQTSOcUY77Rlwz58MC1zZ51DbBc"
+                alt="Seifeddine BEN RHOUMA"
+                className="w-full h-full object-cover"
+              />
             </div>
-            <h3 className="text-xl font-bold text-foreground mb-2">Jean DUBOIS</h3>
+            <h3 className="text-xl font-bold text-foreground mb-2">Seifeddine BEN RHOUMA</h3>
             <div className="text-secondary font-medium mb-4">CTO & Co-fondateur</div>
             <p className="text-sm text-muted-foreground mb-6">
-              Ex-Lead Data Scientist chez Doctolib. 
-              Ingénieur Polytechnique, spécialiste IA appliquée à la santé.
+              Ingénieur IA<br />
+              ESILV - Data & IA
             </p>
-            <div className="flex items-center justify-center gap-4 mb-4">
-              <div className="flex items-center gap-1 text-xs text-success">
-                <GraduationCap className="w-3 h-3" />
-                <span>PhD Machine Learning</span>
-              </div>
-            </div>
             <div className="flex items-center justify-center gap-3">
-              <Button size="sm" variant="outline" className="p-2">
-                <Linkedin className="w-4 h-4" />
+              <Button size="sm" variant="outline" className="p-2" asChild>
+                <a href="https://www.linkedin.com/in/seifeddine-ben/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-4 h-4" />
+                </a>
               </Button>
-              <Button size="sm" variant="outline" className="p-2">
-                <Mail className="w-4 h-4" />
+              <Button size="sm" variant="outline" className="p-2" asChild>
+                <a href="mailto:seifbr26@gmail.com">
+                  <Mail className="w-4 h-4" />
+                </a>
               </Button>
             </div>
           </Card>
