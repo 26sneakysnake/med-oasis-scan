@@ -6,10 +6,14 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">M</span>
+            <div className="w-8 h-8 rounded-lg flex items-center justify-center">
+              <img 
+                src="https://i.postimg.cc/LsdHNJ56/temp-Image-L6h0g-C.avif" 
+                alt="Médical'IA Logo" 
+                className="w-8 h-8 rounded-lg object-contain"
+              />
             </div>
-            <span className="text-xl font-bold text-foreground">Medical'IA</span>
+            <span className="text-xl font-bold text-foreground">Médical'IA</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
