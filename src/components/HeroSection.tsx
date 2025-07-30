@@ -75,8 +75,8 @@ const HeroSection = () => {
           <div className="pt-12 text-white/70">
             <p className="text-sm mb-4">Soutenu par</p>
             <div className="flex items-center justify-center gap-8 opacity-60">
-              <div className="px-4 py-2 bg-white/10 rounded-lg">BPI France</div>
-              <div className="px-4 py-2 bg-white/10 rounded-lg">French Tech</div>
+              <div className="px-4 py-2 bg-white/10 rounded-lg">Mairie de Nanterre</div>
+              <div className="px-4 py-2 bg-white/10 rounded-lg">Ramsey Santé </div>
               <div className="px-4 py-2 bg-white/10 rounded-lg">ARS Ile-de-France</div>
             </div>
           </div>
