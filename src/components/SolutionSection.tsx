@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Brain, Database, Target, BarChart3, Zap, Shield } from "lucide-react";
+import solutionScreenImage from "@/assets/solution-screen.png";
 
 const SolutionSection = () => {
   return (
@@ -119,7 +120,7 @@ const SolutionSection = () => {
             <div className="bg-white rounded-xl p-4 shadow-medical">
               <div className="rounded-lg overflow-hidden">
                 <img 
-                  src="https://i.ibb.co/4wBMccmx/Capture-decran-2025-05-08-140504.png" 
+                  src={solutionScreenImage} 
                   alt="Dashboard Medical'IA - Interface de visualisation" 
                   className="w-full h-auto object-contain"
                 />

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logoImage from "@/assets/logo.avif";
 
 const Navigation = () => {
   return (
@@ -8,7 +9,7 @@ const Navigation = () => {
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 rounded-lg flex items-center justify-center">
               <img 
-                src="https://i.postimg.cc/LsdHNJ56/temp-Image-L6h0g-C.avif" 
+                src={logoImage} 
                 alt="Médical'IA Logo" 
                 className="w-8 h-8 rounded-lg object-contain"
               />
@@ -23,17 +24,23 @@ const Navigation = () => {
             <a href="#solution" className="text-foreground hover:text-primary transition-colors font-medium">
               Solution
             </a>
-            <a href="#investissement" className="text-foreground hover:text-primary transition-colors font-medium">
-              Investissement
+            <a href="#demonstration" className="text-foreground hover:text-primary transition-colors font-medium">
+              Démonstration
+            </a>
+            <a href="#tarifs" className="text-foreground hover:text-primary transition-colors font-medium">
+              Tarifs
             </a>
             <a href="#equipe" className="text-foreground hover:text-primary transition-colors font-medium">
               Équipe
+            </a>
+            <a href="#investissement" className="text-foreground hover:text-primary transition-colors font-medium">
+              Investissement
             </a>
           </div>
           
           <div className="flex items-center space-x-4">
             <Button variant="outline" size="sm">
-              Démo
+              Voir la démo
             </Button>
             <Button variant="hero" size="sm">
               Investir

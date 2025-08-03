@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, TrendingUp } from "lucide-react";
-import heroImage from "@/assets/hero-medical.jpg";
+import franceMapImage from "@/assets/france-map.png";
 
 const HeroSection = () => {
   return (
@@ -9,8 +9,8 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black/20"></div>
       <div className="absolute inset-0">
         <img 
-          src={heroImage} 
-          alt="Medical AI Technology" 
+          src={franceMapImage} 
+          alt="Carte des déserts médicaux en France" 
           className="w-full h-full object-cover opacity-30"
         />
       </div>
@@ -39,45 +39,51 @@ const HeroSection = () => {
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed">
-            Medical'IA utilise l'intelligence artificielle pour analyser et prédire les déserts médicaux en France, 
+            Médical'IA utilise l'intelligence artificielle pour analyser et prédire les déserts médicaux en France, 
             permettant une allocation optimale des ressources de santé sur tout le territoire.
           </p>
           
           {/* Key Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto py-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto py-8">
             <div className="bg-white/10 backdrop-blur-glass rounded-xl p-6 border border-white/20">
-              <div className="text-3xl font-bold text-accent">28.9%</div>
-              <div className="text-white/80">Communes en désert médical</div>
+              <div className="text-3xl font-bold text-accent">28,9%</div>
+              <div className="text-white/80 text-sm">Communes en désert médical</div>
             </div>
             <div className="bg-white/10 backdrop-blur-glass rounded-xl p-6 border border-white/20">
-              <div className="text-3xl font-bold text-success">2.1M€</div>
-              <div className="text-white/80">Marché addressable</div>
+              <div className="text-3xl font-bold text-success">6,7M</div>
+              <div className="text-white/80 text-sm">Français sans médecin traitant</div>
             </div>
             <div className="bg-white/10 backdrop-blur-glass rounded-xl p-6 border border-white/20">
               <div className="text-3xl font-bold text-white">95%</div>
-              <div className="text-white/80">Précision prédictive</div>
+              <div className="text-white/80 text-sm">Précision prédictive</div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-glass rounded-xl p-6 border border-white/20">
+              <div className="text-3xl font-bold text-accent">2,1M€</div>
+              <div className="text-white/80 text-sm">Marché addressable</div>
             </div>
           </div>
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8">
             <Button variant="accent" size="xl" className="animate-pulse-glow">
-              Opportunité d'investissement
+              Voir la démo Médical'IA
               <ArrowRight className="w-5 h-5" />
             </Button>
             <Button variant="glass" size="xl">
               <Play className="w-5 h-5" />
-              Voir la démo
+              Investir
             </Button>
           </div>
           
           {/* Trust Indicators */}
           <div className="pt-12 text-white/70">
             <p className="text-sm mb-4">Soutenu par</p>
-            <div className="flex items-center justify-center gap-8 opacity-60">
+            <div className="flex flex-wrap items-center justify-center gap-6 opacity-60">
               <div className="px-4 py-2 bg-white/10 rounded-lg">Mairie de Nanterre</div>
-              <div className="px-4 py-2 bg-white/10 rounded-lg">Ramsey Santé </div>
-              <div className="px-4 py-2 bg-white/10 rounded-lg">ARS Ile-de-France</div>
+              <div className="px-4 py-2 bg-white/10 rounded-lg">Ramsey Santé</div>
+              <div className="px-4 py-2 bg-white/10 rounded-lg">ARS Île-de-France</div>
+              <div className="px-4 py-2 bg-white/10 rounded-lg">KESK'IA</div>
+              <div className="px-4 py-2 bg-white/10 rounded-lg">Nestlé</div>
             </div>
           </div>
         </div>
