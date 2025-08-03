@@ -10,9 +10,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm font-['Inter']">M</span>
+                <span className="text-white font-bold text-sm">M</span>
               </div>
-              <span className="text-xl font-bold">Medical'IA</span>
+              <span className="text-white font-bold text-sm font-['Inter']">M</span>
             </div>
             <p className="text-white/70">
               L'intelligence artificielle au service de l'accès aux soins en France.
