@@ -39,11 +39,10 @@ const Navigation = () => {
           </div>
           
           <div className="flex items-center space-x-4">
-            <Button variant="outline" size="sm">
-              Voir la démo
-            </Button>
-            <Button variant="hero" size="sm">
-              Investir
+            <Button variant="outline" size="sm" asChild>
+              <a href="mailto:ilyessassadi78@gmail.com">
+                Demander une démo
+              </a>
             </Button>
           </div>
         </div>

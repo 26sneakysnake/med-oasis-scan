@@ -64,14 +64,12 @@ const HeroSection = () => {
           </div>
           
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-8">
-            <Button variant="accent" size="xl" className="animate-pulse-glow">
-              Voir la démo Médical'IA
-              <ArrowRight className="w-5 h-5" />
-            </Button>
-            <Button variant="glass" size="xl">
-              <Play className="w-5 h-5" />
-              Investir
+          <div className="flex justify-center pt-8">
+            <Button variant="accent" size="xl" className="animate-pulse-glow" asChild>
+              <a href="mailto:ilyessassadi78@gmail.com">
+                Demander une démonstration
+                <ArrowRight className="w-5 h-5" />
+              </a>
             </Button>
           </div>
           

@@ -66,11 +66,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-white/70">
                 <Mail className="w-4 h-4" />
-                <span>contact@medical-ia.fr</span>
+                <span>ilyessassadi78@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-white/70">
                 <Phone className="w-4 h-4" />
-                <span>+33 1 23 45 67 89</span>
+                <span>+33 6 63 47 21 73</span>
               </div>
               <div className="flex items-center gap-3 text-white/70">
                 <MapPin className="w-4 h-4" />
@@ -83,7 +83,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-white/70 text-sm">
-            © 2024 Medical'IA. Tous droits réservés.
+            © 2025 Medical'IA. Tous droits réservés.
           </div>
           <div className="flex space-x-6 text-sm text-white/70 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">

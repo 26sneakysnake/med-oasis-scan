@@ -119,8 +119,10 @@ const DemonstrationSection = () => {
                   <span className="text-foreground">API intégrée pour vos systèmes existants</span>
                 </div>
               </div>
-              <Button variant="hero" size="lg">
-                Demander une démonstration personnalisée
+              <Button variant="hero" size="lg" asChild>
+                <a href="mailto:ilyessassadi78@gmail.com">
+                  Demander une démonstration personnalisée
+                </a>
               </Button>
             </div>
             <div className="bg-white rounded-xl p-4 shadow-medical">

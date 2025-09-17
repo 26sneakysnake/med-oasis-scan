@@ -194,12 +194,16 @@ const InvestmentSection = () => {
             Une opportunité unique d'investir dans l'innovation à impact.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <Button variant="hero" size="xl">
-              <DollarSign className="w-5 h-5" />
-              Investir maintenant
+            <Button variant="hero" size="xl" asChild>
+              <a href="mailto:ilyessassadi78@gmail.com">
+                <DollarSign className="w-5 h-5" />
+                Investir maintenant
+              </a>
             </Button>
-            <Button variant="outline" size="xl" className="border-accent-foreground text-accent-foreground hover:bg-accent-foreground hover:text-accent">
-              Télécharger le pitch deck
+            <Button variant="outline" size="xl" className="border-accent-foreground text-accent-foreground hover:bg-accent-foreground hover:text-accent" asChild>
+              <a href="https://www.canva.com/design/DAGnjKdQLbo/xUrc7tERng-lGrkqV-ePLQ/view?utm_content=DAGnjKdQLbo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h14f6d910c2" target="_blank" rel="noopener noreferrer">
+                Télécharger le pitch deck
+              </a>
             </Button>
           </div>
         </div>

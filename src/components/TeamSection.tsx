@@ -126,21 +126,16 @@ const TeamSection = () => {
         {/* Awards & Recognition */}
         <div className="bg-gradient-medical rounded-2xl p-12 text-white text-center">
           <h3 className="text-3xl font-bold mb-8">Reconnaissance & Awards</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div>
               <div className="text-6xl mb-4">🏆</div>
               <h4 className="font-bold text-xl mb-2">Prix Innovation</h4>
-              <p className="text-white/90">French Tech 2024</p>
+              <p className="text-white/90">POLD (Paris Ouest La-Défense)</p>
             </div>
             <div>
-              <div className="text-6xl mb-4">🚀</div>
-              <h4 className="font-bold text-xl mb-2">Startup of the Year</h4>
-              <p className="text-white/90">HealthTech Awards 2024</p>
-            </div>
-            <div>
-              <div className="text-6xl mb-4">🎯</div>
-              <h4 className="font-bold text-xl mb-2">Bourse French Tech</h4>
-              <p className="text-white/90">500K€ - Deeptech</p>
+              <div className="text-6xl mb-4">🥈</div>
+              <h4 className="font-bold text-xl mb-2">2ème place</h4>
+              <p className="text-white/90">Concours national KESK'IA</p>
             </div>
           </div>
         </div>
