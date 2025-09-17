@@ -113,8 +113,10 @@ const SolutionSection = () => {
                   <span className="text-foreground">ROI des investissements en santé</span>
                 </div>
               </div>
-              <Button variant="hero" size="lg">
-                Découvrir la démo
+              <Button variant="hero" size="lg" asChild>
+                <a href="https://www.loom.com/share/33663b8c1a974b8da1c5a17b73eff71f" target="_blank" rel="noopener noreferrer">
+                  Découvrir la démo
+                </a>
               </Button>
             </div>
             <div className="bg-white rounded-xl p-4 shadow-medical">

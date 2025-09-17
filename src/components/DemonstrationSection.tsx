@@ -119,11 +119,18 @@ const DemonstrationSection = () => {
                   <span className="text-foreground">API intégrée pour vos systèmes existants</span>
                 </div>
               </div>
-              <Button variant="hero" size="lg" asChild>
-                <a href="mailto:ilyessassadi78@gmail.com">
-                  Demander une démonstration personnalisée
-                </a>
-              </Button>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button variant="hero" size="lg" asChild>
+                  <a href="https://www.loom.com/share/33663b8c1a974b8da1c5a17b73eff71f" target="_blank" rel="noopener noreferrer">
+                    Découvrir la démo
+                  </a>
+                </Button>
+                <Button variant="outline" size="lg" asChild>
+                  <a href="mailto:ilyessassadi78@gmail.com">
+                    Demander une démonstration
+                  </a>
+                </Button>
+              </div>
             </div>
             <div className="bg-white rounded-xl p-4 shadow-medical">
               <div className="rounded-lg overflow-hidden">

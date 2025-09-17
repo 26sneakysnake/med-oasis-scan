@@ -24,7 +24,7 @@ const TeamSection = () => {
           <Card className="p-8 text-center bg-white shadow-medical hover:shadow-glow transition-all duration-300 group">
             <div className="w-24 h-24 rounded-full mx-auto mb-6 overflow-hidden group-hover:scale-110 transition-transform">
               <img 
-                src="https://media.licdn.com/dms/image/v2/D4E03AQGVi_gfYNVqyw/profile-displayphoto-crop_800_800/B4EZfVxVyxGcAM-/0/1751638171456?e=1756944000&v=beta&t=SYAkLGIzAAjkdh7vKVjSuYlcqZNkIIrWK9TiVrV3YEM"
+                src="/src/assets/ilyess-photo.jpg"
                 alt="Ilyess ASSADI"
                 className="w-full h-full object-cover"
               />
@@ -52,7 +52,7 @@ const TeamSection = () => {
           <Card className="p-8 text-center bg-white shadow-medical hover:shadow-glow transition-all duration-300 group">
             <div className="w-24 h-24 rounded-full mx-auto mb-6 overflow-hidden group-hover:scale-110 transition-transform">
               <img 
-                src="https://media.licdn.com/dms/image/v2/D4E03AQFanGo-4iolxw/profile-displayphoto-shrink_800_800/B4EZaSh6Y0HcAc-/0/1746215086147?e=1756944000&v=beta&t=Le_U_X_yj_ApZfALCQTSOcUY77Rlwz58MC1zZ51DbBc"
+                src="/src/assets/seifeddine-photo.jpg"
                 alt="Seifeddine BEN RHOUMA"
                 className="w-full h-full object-cover"
               />
@@ -80,7 +80,7 @@ const TeamSection = () => {
           <Card className="p-8 text-center bg-white shadow-medical hover:shadow-glow transition-all duration-300 group">
             <div className="w-24 h-24 rounded-full mx-auto mb-6 overflow-hidden group-hover:scale-110 transition-transform">
               <img 
-                src="https://media.licdn.com/dms/image/v2/D4D03AQG2tSCcpo9j0Q/profile-displayphoto-shrink_800_800/B4DZSJ6z9EHUAg-/0/1737480684189?e=1756944000&v=beta&t=vT0lXrmAgjMdOh1wI-wlaX_xNkKRb7422c47ve5AOgs"
+                src="/src/assets/badr-photo.jpg"
                 alt="Badr AGRAD"
                 className="w-full h-full object-cover"
               />
@@ -127,13 +127,25 @@ const TeamSection = () => {
         <div className="bg-gradient-medical rounded-2xl p-12 text-white text-center">
           <h3 className="text-3xl font-bold mb-8">Reconnaissance & Awards</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div>
-              <div className="text-6xl mb-4">🏆</div>
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 mb-4 rounded-lg overflow-hidden">
+                <img 
+                  src="/src/assets/prix-innovation-pold.jpg"
+                  alt="Prix Innovation POLD"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h4 className="font-bold text-xl mb-2">Prix Innovation</h4>
               <p className="text-white/90">POLD (Paris Ouest La-Défense)</p>
             </div>
-            <div>
-              <div className="text-6xl mb-4">🥈</div>
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 mb-4 rounded-lg overflow-hidden">
+                <img 
+                  src="/src/assets/prix-keskia.jpg"
+                  alt="2ème place KESK'IA"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h4 className="font-bold text-xl mb-2">2ème place</h4>
               <p className="text-white/90">Concours national KESK'IA</p>
             </div>
