@@ -40,8 +40,8 @@ const Navigation = () => {
           
           <div className="flex items-center space-x-4">
             <Button variant="outline" size="sm" asChild>
-              <a href="mailto:ilyessassadi78@gmail.com">
-                Demander une démo
+              <a href="https://www.loom.com/share/33663b8c1a974b8da1c5a17b73eff71f" target="_blank" rel="noopener noreferrer">
+                Voir la démo
               </a>
             </Button>
           </div>

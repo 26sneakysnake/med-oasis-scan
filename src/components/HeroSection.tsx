@@ -66,8 +66,8 @@ const HeroSection = () => {
           {/* CTA Buttons */}
           <div className="flex justify-center pt-8">
             <Button variant="accent" size="xl" className="animate-pulse-glow" asChild>
-              <a href="mailto:ilyessassadi78@gmail.com">
-                Demander une démonstration
+              <a href="https://www.loom.com/share/33663b8c1a974b8da1c5a17b73eff71f" target="_blank" rel="noopener noreferrer">
+                Voir la démo Médical'IA
                 <ArrowRight className="w-5 h-5" />
               </a>
             </Button>
