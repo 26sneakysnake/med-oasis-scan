@@ -1,6 +1,11 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Linkedin, Mail, Award, GraduationCap } from "lucide-react";
+import ilyessPhoto from "@/assets/ilyess-photo.jpg";
+import seifeddinePhoto from "@/assets/seifeddine-photo.jpg";
+import badrPhoto from "@/assets/badr-photo.jpg";
+import prixInnovationImage from "@/assets/prix-innovation-pold.jpg";
+import prixKeskiaImage from "@/assets/prix-keskia.jpg";
 
 const TeamSection = () => {
   return (
@@ -24,7 +29,7 @@ const TeamSection = () => {
           <Card className="p-8 text-center bg-white shadow-medical hover:shadow-glow transition-all duration-300 group">
             <div className="w-24 h-24 rounded-full mx-auto mb-6 overflow-hidden group-hover:scale-110 transition-transform">
               <img 
-                src="/src/assets/ilyess-photo.jpg"
+                src={ilyessPhoto}
                 alt="Ilyess ASSADI"
                 className="w-full h-full object-cover"
               />
@@ -52,7 +57,7 @@ const TeamSection = () => {
           <Card className="p-8 text-center bg-white shadow-medical hover:shadow-glow transition-all duration-300 group">
             <div className="w-24 h-24 rounded-full mx-auto mb-6 overflow-hidden group-hover:scale-110 transition-transform">
               <img 
-                src="/src/assets/seifeddine-photo.jpg"
+                src={seifeddinePhoto}
                 alt="Seifeddine BEN RHOUMA"
                 className="w-full h-full object-cover"
               />
@@ -80,7 +85,7 @@ const TeamSection = () => {
           <Card className="p-8 text-center bg-white shadow-medical hover:shadow-glow transition-all duration-300 group">
             <div className="w-24 h-24 rounded-full mx-auto mb-6 overflow-hidden group-hover:scale-110 transition-transform">
               <img 
-                src="/src/assets/badr-photo.jpg"
+                src={badrPhoto}
                 alt="Badr AGRAD"
                 className="w-full h-full object-cover"
               />
@@ -130,7 +135,7 @@ const TeamSection = () => {
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 mb-4 rounded-lg overflow-hidden">
                 <img 
-                  src="/src/assets/prix-innovation-pold.jpg"
+                  src={prixInnovationImage}
                   alt="Prix Innovation POLD"
                   className="w-full h-full object-cover"
                 />
@@ -141,7 +146,7 @@ const TeamSection = () => {
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 mb-4 rounded-lg overflow-hidden">
                 <img 
-                  src="/src/assets/prix-keskia.jpg"
+                  src={prixKeskiaImage}
                   alt="2ème place KESK'IA"
                   className="w-full h-full object-cover"
                 />
